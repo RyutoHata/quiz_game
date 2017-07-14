@@ -17,3 +17,11 @@ end
 get '/bye' do
     "Good bye"
 end
+
+get '/q01' do
+    erb :q01
+end
+
+get '/test' do
+    erb :test
+end
