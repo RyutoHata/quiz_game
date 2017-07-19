@@ -7,7 +7,7 @@ end
 get '/about' do
     erb :about
 end
-
+# route for Komiya
 get '/komiya' do
     erb :komiya
 end
@@ -31,6 +31,7 @@ get '/bye' do
     "Good bye"
 end
 
+# route for Murooka
 get '/murooka' do
         erb :murooka
 end
@@ -41,5 +42,20 @@ end
 
 get '/murooka_2' do
         erb :murooka_2
+end
+
+# route for Liu
+
+# route for hata
+get '/hata' do
+        erb :hata
+end
+
+get '/hata_1' do
+        erb :hata_1
+end
+
+get '/hata_2' do
+        erb :hata_2
 end
 
