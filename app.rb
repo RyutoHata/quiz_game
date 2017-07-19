@@ -45,6 +45,15 @@ get '/murooka_2' do
 end
 
 # route for Liu
+get '/liu_1' do
+	erb :liu_1
+end
+get '/liu_2' do
+        erb :liu_2
+end
+get '/liu_3' do
+        erb :liu_3
+end
 
 # route for hata
 get '/hata' do

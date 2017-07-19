@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>quiz game</title>
+
+  <style type="text/css">
+    body {background-color: gray}
+    p {margin-left: 20px}
+  </style>
+  <script type="text/javascript">
+  var anser;
+  i=1;
+  function ansertest() {
+    anser=document.getElementById('anser1').value;
+    
+      if (anser=='二文字') {
+     	 alert('正解です！次の問題を答えてください！'); }
+      else
+	if(i>=3)
+        	alert('答えは「二文字」です。（好きと嫌い二文字）');
+      	else		
+		alert('違う、もう一度答えてください！ ');
+		i=i+1
+	
+       // body...
+  }
+   
+
+</script>
+</head>
+<body>
+
+
+  <div>
+    <th>quiz game</th>
+            <br/>
+                  </div>
+<h1>問題3-1:</h1>
+<div>
+  <p>告白を絶対に成功させたいあなた。
+  <br/> 「私の事、好きか嫌いか○○で答えて」
+  <br/>  ○○に入る言葉は？(字数は○の数と無関係です)</p>
+          </div>
+<div><form action="form_action.asp" method="get">
+  答え: <input type="text" name="anser1" id="anser1" />
+          </div>
+
+
+  <div>
+      <input type="button" value="前の問題" onclick="location.href='murooka'"/>
+      <input type="button" value="提出" onclick="ansertest()"/>
+      <input type="button" value="次の問題" onclick="location.href='liu_2'"/>
+                  </div>
+
+</form>
+
+
+</body>
+</html>
