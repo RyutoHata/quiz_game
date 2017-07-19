@@ -59,3 +59,7 @@ get '/hata_2' do
         erb :hata_2
 end
 
+# route for goal
+get '/goal' do
+	erb :goal
+end
