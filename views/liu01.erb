@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>quiz game</title>
+
+  <style type="text/css">
+    body {background-color: gray}
+    p {margin-left: 20px}
+  </style>
+  <script type="text/javascript">
+  var anser;
+  function ansertest() {
+    anser=document.getElementById('anser1').value;
+    if (anser='二文字') {
+      alert('You are right!go the next page;');
+    }
+    else
+      alert('違う、もう一度答えてください！ ');
+    // body...
+  }
+    // body...
+  }
+
+</script>
+</head>
+<body>
+
+
+  <div>
+    <th>quiz game</th>
+            <br/>
+                  </div>
+<h1>Question:</h1>
+<div>
+  <a href="">告白を絶対に成功させたいあなた。
+  <br/> 「私の事、好きか嫌いか○○で答えて」
+  <br/>  ○○に入る言葉は？(字数は○の数と無関係です)</a>
+          </div>
+<div><form action="form_action.asp" method="get">
+  答え: <input type="text" name="anser1" id="anser1" />
+          </div>
+
+
+  <div>
+      <button>Last one</button>
+      <input type="button" name="Submit" value="Submit" onclick="void ansertest();" />
+      <button>Next one</button>
+                  </div>
+
+</form>
+
+
+</body>
+</html>
