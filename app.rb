@@ -31,10 +31,15 @@ get '/bye' do
     "Good bye"
 end
 
-get '/q01' do
-    erb :q01
+get '/murooka' do
+        erb :murooka
 end
 
-get '/test' do
-    erb :test
+get '/murooka_1' do
+        erb :murooka_1
 end
+
+get '/murooka_2' do
+        erb :murooka_2
+end
+
